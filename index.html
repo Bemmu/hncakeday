@@ -41,11 +41,11 @@
 </form>
 <script>
 $(function () {
-	var ಠ_ಠ = new Firebase("https://hacker-news.firebaseio.com/");
+	var 火 = new Firebase("https://hacker-news.firebaseio.com/");
 	var ໆ = "http://news.ycombinator.com/";
 	$("#誤").hide();
 	$("form").submit(function () {
-		ಠ_ಠ.child("v0/user/" + $("#username").val()).on("value", function(𝓡) { 
+		火.child("v0/user/" + $("#username").val()).on("value", function(𝓡) { 
 			var 𝓤 = 𝓡.val();
 			if (𝓤 && 𝓤.created) {
 				var 時 = new Date(𝓤.created * 1e3);
